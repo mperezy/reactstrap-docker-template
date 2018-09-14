@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  react-docker:
+    build: .
+    container_name: reactstrap-template
+    restart: always
+    ports:
+      - "3000:3000"
+    working_dir: /usr/src/app
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    environment:
+          - NODE_ENV=development
+          - CHOKIDAR_USEPOLLING=true
