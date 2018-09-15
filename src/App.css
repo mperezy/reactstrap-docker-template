@@ -26,3 +26,10 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.footer {
+  background-color: #3B3B3B;
+  height: 10%;
+  padding: 20px;
+  color: white;
+}
