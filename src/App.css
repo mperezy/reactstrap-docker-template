@@ -22,6 +22,16 @@
   font-size: large;
 }
 
+a {
+  color: #464F51;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #2EC4B6;
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
