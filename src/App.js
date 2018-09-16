@@ -3,33 +3,29 @@ import logo from './logo.svg';
 import './App.css';
 
 //Components
+import Header from './components/Header';
+import Message from './components/Message';
 import CardExample from './components/CardExample';
 import TableExample from './components/TableExample';
+import Resources from './components/Resources';
+import Footer from './components/Footer';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">Welcome to React + ReactStrap</h1>
-                </header>
+                <Header logo={logo}/>
                 <br/>
-                <p className="App-intro">
-                    This is a single template usign React and ReactStrap, a library that use React and Bootstrap 4
-                    <br/>
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
+                <Message />
                 <br/>
                 <TableExample/>
                 <br/>
                 <CardExample />
                 <br/>
+                <Resources />
                 <br/>
-                <footer className={"footer"}>
-                    <h5>This is a footer using React + Bootstrap</h5>
-                    <p>&#174; All rights reserved. [I'm joking]</p>
-                </footer>
+                <br/>
+                <Footer />
             </div>
         );
     }
