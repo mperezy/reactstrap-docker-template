@@ -1,4 +1,4 @@
-# Reactstrap + Docker Example Project
+# Reactstrap + Docker Template Project
 
 Only for development:
 
@@ -24,5 +24,4 @@ Only for development:
     ```bash
     docker-compose up
     ```
-* Enjoy developing!!"# reactstrap-docker-template" 
-"# reactstrap-docker-template" 
+* Enjoy developing!!
