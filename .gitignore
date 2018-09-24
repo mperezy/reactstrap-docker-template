@@ -9,6 +9,11 @@
 # production
 /build
 
+# IDE and code editor ignores
+/.idea
+/.idea/workspace.xml
+/.vscode
+
 # misc
 .DS_Store
 .env.local
