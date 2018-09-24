@@ -10,7 +10,10 @@ COPY package.json /usr/src/app/package.json
 RUN \
     npm install --silent && \
     npm install react-scripts@1.1.1 -g --silent && \
-    npm install bootstrap --save && npm install --save reactstrap react react-dom
+    npm install bootstrap --save && npm install --save reactstrap react react-dom && \
+    apk update && apk upgrade && \
+    apk add --no-cache bash git openssh && \
+    apk add --no-cache bash nano
   # && \
 # start app
 CMD ["npm", "start"]
