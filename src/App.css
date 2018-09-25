@@ -37,6 +37,10 @@ a:hover {
   to { transform: rotate(360deg); }
 }
 
+.text-left-align {
+  text-align: left;
+}
+
 .footer {
   background-color: #3B3B3B;
   height: 10%;
